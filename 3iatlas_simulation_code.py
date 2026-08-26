@@ -1,3 +1,4 @@
+
 # ==============================================================================
 # 3I/ATLAS HIGH-PRECISION ORBITAL SIMULATION CODE (RK45)
 # ==============================================================================
@@ -21,11 +22,11 @@ C_LIGHT = 299792.458          # Speed of light in km/s
 # ------------------------------------------------------------------------------
 # 2. 3I/ATLAS PHYSICAL PARAMETERS (CONSENSUAL VALUES)
 # ------------------------------------------------------------------------------
-RADIUS = 1300                 # Radius of nucleus (meters)
+RADIUS = 1300.0               # Radius of nucleus (meters, 1.3 km)
 DENSITY = 550.0               # Bulk density (kg/m^3)
-VOLUME = (4.0 / 3.0) * np.pi * (RADIUS ** 3) # Volume in m^3
-MASS_INITIAL = DENSITY * VOLUME  # Initial mass in kg (~5061.5 kg)
-AREA = np.pi * (RADIUS ** 2)  # Cross-sectional area in m^2 (~5.31 m^2)
+VOLUME = (4.0 / 3.0) * np.pi * (RADIUS ** 3) # Volume in m^3 (~9.20e9 m^3)
+MASS_INITIAL = DENSITY * VOLUME  # Initial mass in kg (~5.06e12 kg)
+AREA = np.pi * (RADIUS ** 2)  # Cross-sectional area in m^2 (~5.31e6 m^2)
 SOLAR_CONSTANT = 1361.0       # Solar constant at 1 AU (W/m^2)
 
 # ------------------------------------------------------------------------------
