@@ -21,7 +21,7 @@ C_LIGHT = 299792.458          # Speed of light in km/s
 # ------------------------------------------------------------------------------
 # 2. 3I/ATLAS PHYSICAL PARAMETERS (CONSENSUAL VALUES)
 # ------------------------------------------------------------------------------
-RADIUS = 1.3                  # Radius of nucleus (meters)
+RADIUS = 1300                 # Radius of nucleus (meters)
 DENSITY = 550.0               # Bulk density (kg/m^3)
 VOLUME = (4.0 / 3.0) * np.pi * (RADIUS ** 3) # Volume in m^3
 MASS_INITIAL = DENSITY * VOLUME  # Initial mass in kg (~5061.5 kg)
