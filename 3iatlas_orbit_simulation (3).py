@@ -1,7 +1,7 @@
 # ==============================================================================
 # 3I/ATLAS ORBITAL TRAJECTORY PROPAGATOR & NON-GRAVITATIONAL FORCE MODEL
 # Author: Rene Sagal Andrade (Lead Researcher & Astro-aerospace System Architect)
-# Manuscript Ref: ICARUS-D-26-00561
+# Manuscript Ref: AJ_Validation
 # Repository: https://github.com/sagal1031rene-coder/3iatlas-orbit-model
 # ==============================================================================
 
