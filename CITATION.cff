@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software simulation engine, please cite it as below."
+authors:
+  - family-names: "Sagal Andrade"
+    given-names: "Rene"
+    orcid: "https://orcid.org"
+title: "An Open-Source Adaptive RK45 Software Framework for Hyperbolic Trajectory Validation: 3I/ATLAS Simulation Engine"
+version: 1.0.0
+doi: "10.5281/zenodo.24017175"
+date-released: 2026-11-06
+url: "https://github.com"
